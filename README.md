@@ -1,31 +1,37 @@
 Configuración del proyecto
 
-## Puntos a tener en cuenta
+
+Clonar repositorio  $  git clone https://github.com/facundonmv/Challenge---Pokemon-Battle.git
+
+
+
+## Puntos a tener en cuenta...
 
 Tener instalado NodeJS : https://nodejs.org/en/download/package-manager
 
-Instalar NestJS npm i -g @nestjs/cli
 
-## Configuración backend
+
+## Configuración backend, pasos a seguir...
 
 Ir a la carpeta api $ cd api
 
 Instalar dependencias $ npm i
 
-## Configuración frontend
+Instalar NestJS npm i -g @nestjs/cli
+
+Establecer conexion con base de datos $ npm run db:import
+
+Ejecutar el servidor $ npm run start:dev
+
+
+
+## Configuración frontend, pasos a seguir...
 
 Ir a la carpeta clint $ cd client
 
 Instalar dependencias $ npm i
 
-## Compilar y ejecutar el proyecto
+Ejecutar la web $ npm run dev
 
-Ir a la carpeta api $ cd api
 
-$ npm run db:import
 
-$ npm run start:dev
-
-Ir a la carpeta client $ cd client
-
-$ npm run dev
