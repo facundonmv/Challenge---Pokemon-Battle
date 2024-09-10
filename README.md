@@ -8,24 +8,24 @@ Instalar NestJS npm i -g @nestjs/cli
 
 ## Configuración backend
 
-$ cd api
+Ir a la carpeta api $ cd api
 
-$ npm i
+Instalar dependencias $ npm i
 
 ## Configuración frontend
 
-$ cd client
+Ir a la carpeta clint $ cd client
 
-$ npm i
+Instalar dependencias $ npm i
 
 ## Compilar y ejecutar el proyecto
 
-$ cd api
+Ir a la carpeta api $ cd api
 
 $ npm run db:import
 
 $ npm run start:dev
 
-$ cd client
+Ir a la carpeta client $ cd client
 
 $ npm run dev
