@@ -1,0 +1,8 @@
+.battle-container-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2rem;
+    min-height: 100vh;
+    min-width: 60vw;
+}

@@ -1,0 +1,11 @@
+.pokemonImage{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.pokemon-item-card{
+    padding: .25rem .5rem;
+    width: 160px;
+    height: auto;
+}

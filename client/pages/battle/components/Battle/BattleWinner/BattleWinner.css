@@ -1,0 +1,17 @@
+.battle-winner-wrapper {
+    display: flex;
+    height:60px;
+    margin: 0 2rem;
+    width: 80%;
+    align-items: center;
+    padding: 1rem;
+    padding-left: 2rem;
+    background-color: #cbe3e0;
+    border: solid 1px #000;
+    border-radius: 4px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.hidden{
+    visibility: hidden;
+}

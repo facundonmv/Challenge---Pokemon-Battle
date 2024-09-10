@@ -1,0 +1,45 @@
+.players-wrapper-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 1rem;
+    width: 100%;
+}
+
+.players-item{
+    flex: 1 1 300px; 
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    background-color: 400px;
+}
+
+.button-item{
+    width: 14rem;
+    flex: 1 1 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.battle-button {
+    flex: 0 1 auto;
+    margin: 1rem 0;
+}
+
+@media (max-width: 768px) {
+    .players-wrapper-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pokemon-card {
+        max-width: 100%;
+    }
+
+    .button-item {
+        width: 100%;
+        text-align: center;
+    }
+}
